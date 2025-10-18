@@ -5,7 +5,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI,GoogleGenerativeAIEmbe
 import os
 from langgraph.graph import StateGraph,END,START
 from langchain_community.vectorstores import Chroma
-from langchain.schema import Document
+from langchain_core.documents import Document
 import asyncio
 
 
